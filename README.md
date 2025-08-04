@@ -2,52 +2,58 @@
 
 This is a multi-LLM chat assistant powered by Chainlit and OpenAI SDK. It allows you to switch between several language models like Gemini, Deepseek, Qwen, and MoonshotAI on the fly using a simple dropdown menu in the chat UI.
 
+# 🌟 Chainlit Multi-LLM Chat Assistant
+
+This project is a **Chainlit-powered AI assistant** that allows users to interact with multiple Large Language Models (LLMs) via a dynamic chat interface. Users can select from a variety of models like Qwen, DeepSeek, Gemini, and MoonshotAI, and receive streamed responses in real-time.
+
 ---
 
-## 🛠 Getting Started
+## 🚀 Features
 
-### ✅ Prerequisites
+- 🔄 **Dynamic Model Switching** — Choose from multiple LLMs during the chat session.
+- 💬 **Streamed Responses** — Real-time streaming of model replies for smoother UX.
+- 🔐 **Secure API Integration** — Uses environment variables to manage API keys and base URLs.
+- 🧠 **Agent Architecture** — Modular agent setup for flexible instruction and model handling.
+- 🛠️ **Chainlit Widgets** — Interactive UI elements for model selection and chat control.
 
-- Python 3.8+
-- [Chainlit](https://chainlit.io)  
-  ```bash
-  pip install chainlit
+---
 
-### OpenAI Python SDK
+## 🧰 Technologies Used
 
+| Tool/Library       | Purpose                                  |
+|--------------------|------------------------------------------|
+| `Chainlit`         | Chat interface and widget handling       |
+| `OpenAI` SDK       | Async client for external LLMs           |
+| `dotenv`           | Environment variable management          |
+| `Custom Agent`     | Modular agent and runner logic           |
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/chainlit-multi-llm-chat.git
+   cd chainlit-multi-llm-chat
+
+2. **Clone the repository**
+   ```bash
+   pip install -r requirements.txt
+3. **Set up environment variables**
+   Create a .env file in the root directory:
+    ```Env
+    OPENROUTER_API_KEY=your_openrouter_api_key
+    base_url=https://openrouter.ai/api/v1
+##🧪 Running the App
+Start the Chainlit server:
  ```bash
-pip install openai
-### 📄 .env Configuration
-Create a .env file in the root directory and add the following:
-
-env
-OPENROUTER_API_KEY=your_api_key_here
-base_url=https://your-llm-endpoint.com
-###📦 Installation
-Clone the repository:
-
- ```bash
-git clone https://github.com/yourusername/multi-llm-chainlit.git
-cd multi-llm-chainlit
-Create and activate a virtual environment:
-
- ```bash
-python -m venv .venv
-source .venv/bin/activate      # On Windows: .venv\Scripts\activate
-###Install dependencies:
-
- ```bash
-
-pip install -r requirements.txt
-Add your API keys to .env file as shown above.
-
-###🚀 Usage
-Run the Chainlit app:
-
- ```bash
-chainlit run your_script.py
-Replace your_script.py with the name of your Python script (e.g., app.py or main.py).
-
-Then open your browser to:
-📍 http://localhost:8000
+chainlit run main.py
+##🧠 Supported Models
+* Qwen 3
+* Deepseek v3
+* Gemini 2.0
+* DeepSeek R1
+* MoonshotAI k
+##🙌 Credits
+Developed by Kaif Shamim Powered by Chainlit and OpenRouter
 
