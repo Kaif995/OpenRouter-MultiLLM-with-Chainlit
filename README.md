@@ -12,3 +12,46 @@ This is a multi-LLM chat assistant powered by Chainlit and OpenAI SDK. It allows
 - [Chainlit](https://chainlit.io)  
   ```bash
   pip install chainlit
+
+OpenAI Python SDK
+
+bash
+Copy code
+pip install openai
+📄 .env Configuration
+Create a .env file in the root directory and add the following:
+
+env
+Copy code
+OPENROUTER_API_KEY=your_api_key_here
+base_url=https://your-llm-endpoint.com
+📦 Installation
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/multi-llm-chainlit.git
+cd multi-llm-chainlit
+Create and activate a virtual environment:
+
+bash
+Copy code
+python -m venv .venv
+source .venv/bin/activate      # On Windows: .venv\Scripts\activate
+Install dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
+Add your API keys to .env file as shown above.
+
+🚀 Usage
+Run the Chainlit app:
+
+bash
+Copy code
+chainlit run your_script.py
+Replace your_script.py with the name of your Python script (e.g., app.py or main.py).
+
+Then open your browser to:
+📍 http://localhost:8000
