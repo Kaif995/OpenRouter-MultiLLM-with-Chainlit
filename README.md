@@ -7,7 +7,7 @@ This is a multi-LLM chat assistant powered by Chainlit and OpenAI SDK. It allows
 This project is a **Chainlit-powered AI assistant** that allows users to interact with multiple Large Language Models (LLMs) via a dynamic chat interface. Users can select from a variety of models like Qwen, DeepSeek, Gemini, and MoonshotAI, and receive streamed responses in real-time.
 
 ---
-
+   
 ## 🚀 Features
 
 - 🔄 **Dynamic Model Switching** — Choose from multiple LLMs during the chat session.
@@ -56,5 +56,6 @@ chainlit run main.py
 * MoonshotAI k
 ##🙌 Credits
 Developed by Kaif Shamim Powered by Chainlit and OpenRouter
+
 
 
