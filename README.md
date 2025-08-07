@@ -46,9 +46,11 @@ This project is a **Chainlit-powered AI assistant** that allows users to interac
     base_url=https://openrouter.ai/api/v1
 ##🧪 Running the App
 Start the Chainlit server:
- ```bash
-chainlit run main.py
-##🧠 Supported Models
+    ```bash
+    chainlit run main.py
+
+
+ ##🧠 Supported Models
 * Qwen 3
 * Deepseek v3
 * Gemini 2.0
