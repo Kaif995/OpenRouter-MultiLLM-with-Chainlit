@@ -49,7 +49,7 @@ This project is a **Chainlit-powered AI assistant** that allows users to interac
     ```bash
     chainlit run main.py
 
-
+ 
  ##🧠 Supported Models
 * Qwen 3
 * Deepseek v3
@@ -58,6 +58,7 @@ This project is a **Chainlit-powered AI assistant** that allows users to interac
 * MoonshotAI k
 ##🙌 Credits
 Developed by Kaif Shamim Powered by Chainlit and OpenRouter
+
 
 
 
