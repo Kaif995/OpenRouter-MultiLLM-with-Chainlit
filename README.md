@@ -45,7 +45,7 @@ This project is a **Chainlit-powered AI assistant** that allows users to interac
     OPENROUTER_API_KEY=your_openrouter_api_key
     base_url=https://openrouter.ai/api/v1
 ##🧪 Running the App
-Start the Chainlit server:
+
     ```bash
     chainlit run main.py
 
