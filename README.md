@@ -15,7 +15,7 @@ This project is a **Chainlit-powered AI assistant** that allows users to interac
 - 🔐 **Secure API Integration** — Uses environment variables to manage API keys and base URLs.
 - 🧠 **Agent Architecture** — Modular agent setup for flexible instruction and model handling.
 - 🛠️ **Chainlit Widgets** — Interactive UI elements for model selection and chat control.
-       
+        
 ---
 
 ## 🧰 Technologies Used
@@ -58,6 +58,7 @@ This project is a **Chainlit-powered AI assistant** that allows users to interac
 * MoonshotAI k
 ##🙌 Credits
 Developed by Kaif Shamim Powered by Chainlit and OpenRouter
+
 
 
 
