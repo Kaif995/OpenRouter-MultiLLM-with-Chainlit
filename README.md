@@ -35,29 +35,31 @@ This project is a **Chainlit-powered AI assistant** that allows users to interac
    ```bash
    git clone https://github.com/your-username/chainlit-multi-llm-chat.git
    cd chainlit-multi-llm-chat
-
+   ```
 2. **Clone the repository**
    ```bash
    pip install -r requirements.txt
+   ```
 3. **Set up environment variables**
    Create a .env file in the root directory:
     ```Env
     OPENROUTER_API_KEY=your_openrouter_api_key
     base_url=https://openrouter.ai/api/v1
-##🧪 Running the App
-
-    ```bash
-    chainlit run main.py
-
+## 🧪 Running the App
+   ```bash
+   chainlit run main.py
+   ```
+    
  
- ##🧠 Supported Models
+ ## 🧠 Supported Models
 * Qwen 3
 * Deepseek v3
 * Gemini 2.0
 * DeepSeek R1
 * MoonshotAI k
-##🙌 Credits
+## 🙌 Credits
 Developed by Kaif Shamim Powered by Chainlit and OpenRouter
+
 
 
 
