@@ -4,7 +4,7 @@ This is a multi-LLM chat assistant powered by Chainlit and OpenAI SDK. It allows
 
 # 🌟 Chainlit Multi-LLM Chat Assistant
 
-This project is a **Chainlit-powered AI assistant** that allows users to interact with multiple Large Language Models (LLMs) via a dynamic chat interface. Users can select from a variety of models like Qwen, DeepSeek, Gemini, and MoonshotAI, and receive streamed responses in real-time.
+This project is a **Chainlit-powered AI assistant** that allows users to interact with multiple Large Language Models (LLMs) via a dynamic chat interface. Users can select from a variety of models like Qwen, DeepSeek, Gemini, and MoonshotAI, and receive streamed responses in real-time. 
 
 ---
    
